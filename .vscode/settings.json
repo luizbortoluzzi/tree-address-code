@@ -1,0 +1,25 @@
+{
+    "files.associations": {
+        "iosfwd": "cpp",
+        "*.tcc": "cpp",
+        "memory_resource": "cpp",
+        "tuple": "cpp",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "exception": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp",
+        "functional": "cpp",
+        "memory": "cpp",
+        "fstream": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "numeric": "cpp",
+        "sstream": "cpp",
+        "streambuf": "cpp",
+        "cmath": "cpp",
+        "cstdint": "cpp",
+        "typeinfo": "cpp",
+        "utility": "cpp"
+    }
+}
