@@ -198,7 +198,13 @@ void Traverse(Node *n)
             cout << "<FOR> ";
 
             cout << "<INIT> ";
-            Traverse(f->init);
+            if (!f->init.empty())
+            { // Verifica se o vetor não está vazio
+                for (auto &initStmt : f->init)
+                {
+                    Traverse(initStmt);
+                }
+            }
             cout << "</INIT> ";
 
             cout << "<COND> ";
@@ -206,7 +212,13 @@ void Traverse(Node *n)
             cout << "</COND> ";
 
             cout << "<INCREMENT> ";
-            Traverse(f->increment);
+            if (!f->increment.empty())
+            { // Verifica se o vetor não está vazio
+                for (auto &incStmt : f->increment)
+                {
+                    Traverse(incStmt);
+                }
+            }
             cout << "</INCREMENT> ";
 
             cout << "\n";

@@ -3,6 +3,7 @@
 #define COMPILER_AST
 
 #include "lexer.h"
+#include <vector>
 
 enum NodeType
 {
@@ -159,13 +160,23 @@ struct DoWhile : public Statement
     void Gen();
 };
 
+// struct For : public Statement
+// {
+//     Statement *init;
+//     Expression *cond;
+//     Statement *increment;
+//     Statement *stmt;
+//     For(Statement *i, Expression *c, Statement *inc, Statement *s);
+//     void Gen();
+// };
+
 struct For : public Statement
 {
-    Statement *init;
+    std::vector<Statement*> init;
     Expression *cond;
-    Statement *increment;
+    std::vector<Statement*> increment;
     Statement *stmt;
-    For(Statement *i, Expression *c, Statement *inc, Statement *s);
+    For(std::vector<Statement*> init, Expression *c, std::vector<Statement*> increment, Statement *s);
     void Gen();
 };
 

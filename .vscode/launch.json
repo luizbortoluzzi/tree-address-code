@@ -9,8 +9,8 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/Debug/tradutor",
-            "args": ["Testes/teste4.cpp"],
+            "program": "${command:cmake.launchTargetPath}",
+            "args": ["Testes/teste5.cpp"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
@@ -23,7 +23,8 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "make debug"
+            "preLaunchTask": "make debug",
+            "miDebuggerPath": "/usr/bin/gdb"
         }
     ]
 }

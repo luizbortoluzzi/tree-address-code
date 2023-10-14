@@ -73,113 +73,113 @@ CMakeFiles/compiler.dir/ast.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/ast.cpp.o: ../ast.cpp
 CMakeFiles/compiler.dir/ast.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/Lab11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/compiler.dir/ast.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/ast.cpp.o -MF CMakeFiles/compiler.dir/ast.cpp.o.d -o CMakeFiles/compiler.dir/ast.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/ast.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/ast.cpp.o -MF CMakeFiles/compiler.dir/ast.cpp.o.d -o CMakeFiles/compiler.dir/ast.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/ast.cpp
 
 CMakeFiles/compiler.dir/ast.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compiler.dir/ast.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luiz/Documentos/Compiladores/Lab11/ast.cpp > CMakeFiles/compiler.dir/ast.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luiz/Documentos/Compiladores/Lab11/ast.cpp > CMakeFiles/compiler.dir/ast.cpp.i
 
 CMakeFiles/compiler.dir/ast.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compiler.dir/ast.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luiz/Documentos/Compiladores/Lab11/ast.cpp -o CMakeFiles/compiler.dir/ast.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luiz/Documentos/Compiladores/Lab11/ast.cpp -o CMakeFiles/compiler.dir/ast.cpp.s
 
 CMakeFiles/compiler.dir/gen.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/gen.cpp.o: ../gen.cpp
 CMakeFiles/compiler.dir/gen.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/Lab11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/compiler.dir/gen.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/gen.cpp.o -MF CMakeFiles/compiler.dir/gen.cpp.o.d -o CMakeFiles/compiler.dir/gen.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/gen.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/gen.cpp.o -MF CMakeFiles/compiler.dir/gen.cpp.o.d -o CMakeFiles/compiler.dir/gen.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/gen.cpp
 
 CMakeFiles/compiler.dir/gen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compiler.dir/gen.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luiz/Documentos/Compiladores/Lab11/gen.cpp > CMakeFiles/compiler.dir/gen.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luiz/Documentos/Compiladores/Lab11/gen.cpp > CMakeFiles/compiler.dir/gen.cpp.i
 
 CMakeFiles/compiler.dir/gen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compiler.dir/gen.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luiz/Documentos/Compiladores/Lab11/gen.cpp -o CMakeFiles/compiler.dir/gen.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luiz/Documentos/Compiladores/Lab11/gen.cpp -o CMakeFiles/compiler.dir/gen.cpp.s
 
 CMakeFiles/compiler.dir/checker.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/checker.cpp.o: ../checker.cpp
 CMakeFiles/compiler.dir/checker.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/Lab11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/compiler.dir/checker.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/checker.cpp.o -MF CMakeFiles/compiler.dir/checker.cpp.o.d -o CMakeFiles/compiler.dir/checker.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/checker.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/checker.cpp.o -MF CMakeFiles/compiler.dir/checker.cpp.o.d -o CMakeFiles/compiler.dir/checker.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/checker.cpp
 
 CMakeFiles/compiler.dir/checker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compiler.dir/checker.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luiz/Documentos/Compiladores/Lab11/checker.cpp > CMakeFiles/compiler.dir/checker.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luiz/Documentos/Compiladores/Lab11/checker.cpp > CMakeFiles/compiler.dir/checker.cpp.i
 
 CMakeFiles/compiler.dir/checker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compiler.dir/checker.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luiz/Documentos/Compiladores/Lab11/checker.cpp -o CMakeFiles/compiler.dir/checker.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luiz/Documentos/Compiladores/Lab11/checker.cpp -o CMakeFiles/compiler.dir/checker.cpp.s
 
 CMakeFiles/compiler.dir/lexer.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/lexer.cpp.o: ../lexer.cpp
 CMakeFiles/compiler.dir/lexer.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/Lab11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/compiler.dir/lexer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/lexer.cpp.o -MF CMakeFiles/compiler.dir/lexer.cpp.o.d -o CMakeFiles/compiler.dir/lexer.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/lexer.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/lexer.cpp.o -MF CMakeFiles/compiler.dir/lexer.cpp.o.d -o CMakeFiles/compiler.dir/lexer.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/lexer.cpp
 
 CMakeFiles/compiler.dir/lexer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compiler.dir/lexer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luiz/Documentos/Compiladores/Lab11/lexer.cpp > CMakeFiles/compiler.dir/lexer.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luiz/Documentos/Compiladores/Lab11/lexer.cpp > CMakeFiles/compiler.dir/lexer.cpp.i
 
 CMakeFiles/compiler.dir/lexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compiler.dir/lexer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luiz/Documentos/Compiladores/Lab11/lexer.cpp -o CMakeFiles/compiler.dir/lexer.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luiz/Documentos/Compiladores/Lab11/lexer.cpp -o CMakeFiles/compiler.dir/lexer.cpp.s
 
 CMakeFiles/compiler.dir/parser.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/parser.cpp.o: ../parser.cpp
 CMakeFiles/compiler.dir/parser.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/Lab11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/compiler.dir/parser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/parser.cpp.o -MF CMakeFiles/compiler.dir/parser.cpp.o.d -o CMakeFiles/compiler.dir/parser.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/parser.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/parser.cpp.o -MF CMakeFiles/compiler.dir/parser.cpp.o.d -o CMakeFiles/compiler.dir/parser.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/parser.cpp
 
 CMakeFiles/compiler.dir/parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compiler.dir/parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luiz/Documentos/Compiladores/Lab11/parser.cpp > CMakeFiles/compiler.dir/parser.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luiz/Documentos/Compiladores/Lab11/parser.cpp > CMakeFiles/compiler.dir/parser.cpp.i
 
 CMakeFiles/compiler.dir/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compiler.dir/parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luiz/Documentos/Compiladores/Lab11/parser.cpp -o CMakeFiles/compiler.dir/parser.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luiz/Documentos/Compiladores/Lab11/parser.cpp -o CMakeFiles/compiler.dir/parser.cpp.s
 
 CMakeFiles/compiler.dir/symtable.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/symtable.cpp.o: ../symtable.cpp
 CMakeFiles/compiler.dir/symtable.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/Lab11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/compiler.dir/symtable.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/symtable.cpp.o -MF CMakeFiles/compiler.dir/symtable.cpp.o.d -o CMakeFiles/compiler.dir/symtable.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/symtable.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/symtable.cpp.o -MF CMakeFiles/compiler.dir/symtable.cpp.o.d -o CMakeFiles/compiler.dir/symtable.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/symtable.cpp
 
 CMakeFiles/compiler.dir/symtable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compiler.dir/symtable.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luiz/Documentos/Compiladores/Lab11/symtable.cpp > CMakeFiles/compiler.dir/symtable.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luiz/Documentos/Compiladores/Lab11/symtable.cpp > CMakeFiles/compiler.dir/symtable.cpp.i
 
 CMakeFiles/compiler.dir/symtable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compiler.dir/symtable.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luiz/Documentos/Compiladores/Lab11/symtable.cpp -o CMakeFiles/compiler.dir/symtable.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luiz/Documentos/Compiladores/Lab11/symtable.cpp -o CMakeFiles/compiler.dir/symtable.cpp.s
 
 CMakeFiles/compiler.dir/error.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/error.cpp.o: ../error.cpp
 CMakeFiles/compiler.dir/error.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/Lab11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/compiler.dir/error.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/error.cpp.o -MF CMakeFiles/compiler.dir/error.cpp.o.d -o CMakeFiles/compiler.dir/error.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/error.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/error.cpp.o -MF CMakeFiles/compiler.dir/error.cpp.o.d -o CMakeFiles/compiler.dir/error.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/error.cpp
 
 CMakeFiles/compiler.dir/error.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compiler.dir/error.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luiz/Documentos/Compiladores/Lab11/error.cpp > CMakeFiles/compiler.dir/error.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luiz/Documentos/Compiladores/Lab11/error.cpp > CMakeFiles/compiler.dir/error.cpp.i
 
 CMakeFiles/compiler.dir/error.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compiler.dir/error.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luiz/Documentos/Compiladores/Lab11/error.cpp -o CMakeFiles/compiler.dir/error.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luiz/Documentos/Compiladores/Lab11/error.cpp -o CMakeFiles/compiler.dir/error.cpp.s
 
 CMakeFiles/compiler.dir/compiler.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/compiler.cpp.o: ../compiler.cpp
 CMakeFiles/compiler.dir/compiler.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/Lab11/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/compiler.dir/compiler.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/compiler.cpp.o -MF CMakeFiles/compiler.dir/compiler.cpp.o.d -o CMakeFiles/compiler.dir/compiler.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/compiler.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/compiler.cpp.o -MF CMakeFiles/compiler.dir/compiler.cpp.o.d -o CMakeFiles/compiler.dir/compiler.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/compiler.cpp
 
 CMakeFiles/compiler.dir/compiler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compiler.dir/compiler.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luiz/Documentos/Compiladores/Lab11/compiler.cpp > CMakeFiles/compiler.dir/compiler.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luiz/Documentos/Compiladores/Lab11/compiler.cpp > CMakeFiles/compiler.dir/compiler.cpp.i
 
 CMakeFiles/compiler.dir/compiler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compiler.dir/compiler.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luiz/Documentos/Compiladores/Lab11/compiler.cpp -o CMakeFiles/compiler.dir/compiler.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luiz/Documentos/Compiladores/Lab11/compiler.cpp -o CMakeFiles/compiler.dir/compiler.cpp.s
 
 # Object files for target compiler
 compiler_OBJECTS = \

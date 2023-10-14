@@ -142,7 +142,7 @@ Statement *Parser::Stmts()
     return seq;
 }
 
-Statement *Parser::Stmt()
+Statement *Parser::Stmt(bool consumeSemicolon)
 {
     // stmt  -> local = bool;
     //        | if (bool) stmt
@@ -163,39 +163,39 @@ Statement *Parser::Stmt()
         {
             Expression *right = Bool();
             stmt = new Assign(left, right);
-            if (!Match(';'))
+            if (consumeSemicolon && !Match(';'))
             {
                 stringstream ss;
-                ss << "esperado ; no lugarzote de '" << lookahead->lexeme << "'";
+                ss << "esperado ; no lugar de '" << lookahead->lexeme << "'";
                 throw SyntaxError{scanner->Lineno(), ss.str()};
             }
         }
         else if (Match(Tag::INC))
         {
             stmt = new Increment(left);
-            if (!Match(';') && !Match(')')) // Verifica se é seguido por ; ou ) em um for
+            if (consumeSemicolon && !Match(';'))
             {
                 stringstream ss;
-                ss << "esperado ; ou ) no lugarzinho de '" << lookahead->lexeme << "'";
+                ss << "esperado ; no lugar de '" << lookahead->lexeme << "'";
                 throw SyntaxError{scanner->Lineno(), ss.str()};
             }
         }
         else if (Match(Tag::DEC))
         {
             stmt = new Decrement(left);
-            if (!Match(';') && !Match(')')) // Verifica se é seguido por ; ou ) em um for
+            if (consumeSemicolon && !Match(';'))
             {
                 stringstream ss;
-                ss << "esperado ; ou ) no lugarzinho de '" << lookahead->lexeme << "'";
+                ss << "esperado ; no lugar de '" << lookahead->lexeme << "'";
                 throw SyntaxError{scanner->Lineno(), ss.str()};
             }
         }
-        else
-        {
-            stringstream ss;
-            ss << "esperado =, ++ ou -- no lugar de '" << lookahead->lexeme << "'";
-            throw SyntaxError{scanner->Lineno(), ss.str()};
-        }
+        // else
+        // {
+        //     stringstream ss;
+        //     ss << "esperado =, ++ ou -- no lugar de '" << lookahead->lexeme << "'";
+        //     throw SyntaxError{scanner->Lineno(), ss.str()};
+        // }
         return stmt;
     }
     // stmt -> local++;
@@ -317,38 +317,85 @@ Statement *Parser::Stmt()
         }
         return stmt;
     }
-    // stmt -> for (stmt; bool; stmt) stmt
+        // stmt -> for (stmt; bool; stmt) stmt
     case Tag::FOR:
     {
         Match(Tag::FOR);
         if (!Match('('))
         {
             stringstream ss;
-            ss << "esperado ( no lugar 1 de  '" << lookahead->lexeme << "'";
+            ss << "esperado ( no lugar 1 de '" << lookahead->lexeme << "'";
             throw SyntaxError{scanner->Lineno(), ss.str()};
         }
 
-        Statement *init = Stmt();
+        // Para suportar múltiplas instruções de inicialização
+        std::vector<Statement *> inits;
+        while (true)
+        {
+            Statement *st = Stmt(false);    // chama Stmt() para obter a próxima declaração
+            if (lookahead->tag == ';') // verifica se o próximo token é ;
+            {
+                Match(';'); // consome o ;
+                break;      // sai do loop
+            }
+            else if (lookahead->tag == ',') // verifica se o próximo token é ,
+            {
+                Match(','); // consome a ,
+                // continua o loop para obter a próxima declaração
+            }
+            else // se não é nem ; nem , então é um erro
+            {
+                throw SyntaxError(scanner->Lineno(), "esperado ; ou ,");
+            }
+        }
+
+        // if (!Match(';'))
+        // {
+        //     stringstream ss;
+        //     ss << "esperado ; no lugar 2 de '" << lookahead->lexeme << "'";
+        //     throw SyntaxError{scanner->Lineno(), ss.str()};
+        // }
 
         Expression *cond = Bool();
 
         if (!Match(';'))
         {
             stringstream ss;
-            ss << "esperado ; no lugar  3 de  '" << lookahead->lexeme << "'";
+            ss << "esperado ; no lugar 3 de '" << lookahead->lexeme << "'";
             throw SyntaxError{scanner->Lineno(), ss.str()};
         }
 
-        Statement *increment = nullptr;
-
+        // Para suportar múltiplas instruções de incremento
+        std::vector<Statement *> increments;
         if (lookahead->tag == Tag::ID || lookahead->tag == Tag::DEC || lookahead->tag == Tag::INC)
         {
-            increment = Stmt();
+            while (true)
+            {
+                increments.push_back(Stmt(false));
+
+                if (lookahead->tag != ',' && lookahead->tag != ')')
+                {
+                    throw SyntaxError(scanner->Lineno(), "esperado , ou )");
+                }
+
+                if (lookahead->tag == ')')
+                {
+                    break;
+                }
+
+                Match(','); // Consumir a vírgula e continuar para a próxima instrução
+            }
         }
 
+        if (!Match(')'))
+        {
+            stringstream ss;
+            ss << "esperado ) no lugar 4 de '" << lookahead->lexeme << "'";
+            throw SyntaxError{scanner->Lineno(), ss.str()};
+        }
 
         Statement *body = Stmt();
-        stmt = new For(init, cond, increment, body);
+        stmt = new For(inits, cond, increments, body); // Agora For aceita vetores de Statement
         return stmt;
     }
 
