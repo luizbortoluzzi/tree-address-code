@@ -1,12 +1,9 @@
 int main() {
     int i; int j;
 
-    for(i = 1; i <= 10; i++)
+    for(i = 1, j = 0; i <= 10; i++, j++)
     {
-        for(j = 1; j <= 10; j++)
-        {
             i = i * j;
-        }
     }
 }
 

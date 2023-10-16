@@ -16,7 +16,7 @@ private:
 	void Decls();
 	void Decl();
 	Statement * Stmts();
-	Statement * Stmt();
+	Statement * Stmt(bool consumeSemicolon = true);
 	Expression * Local();
 	Expression * Bool();
 	Expression * Join();

@@ -1,0 +1,42 @@
+[
+{
+  "directory": "/home/luiz/Documentos/Compiladores/Lab11/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/compiler.dir/ast.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/ast.cpp",
+  "file": "/home/luiz/Documentos/Compiladores/Lab11/ast.cpp"
+},
+{
+  "directory": "/home/luiz/Documentos/Compiladores/Lab11/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/compiler.dir/gen.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/gen.cpp",
+  "file": "/home/luiz/Documentos/Compiladores/Lab11/gen.cpp"
+},
+{
+  "directory": "/home/luiz/Documentos/Compiladores/Lab11/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/compiler.dir/checker.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/checker.cpp",
+  "file": "/home/luiz/Documentos/Compiladores/Lab11/checker.cpp"
+},
+{
+  "directory": "/home/luiz/Documentos/Compiladores/Lab11/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/compiler.dir/lexer.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/lexer.cpp",
+  "file": "/home/luiz/Documentos/Compiladores/Lab11/lexer.cpp"
+},
+{
+  "directory": "/home/luiz/Documentos/Compiladores/Lab11/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/compiler.dir/parser.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/parser.cpp",
+  "file": "/home/luiz/Documentos/Compiladores/Lab11/parser.cpp"
+},
+{
+  "directory": "/home/luiz/Documentos/Compiladores/Lab11/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/compiler.dir/symtable.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/symtable.cpp",
+  "file": "/home/luiz/Documentos/Compiladores/Lab11/symtable.cpp"
+},
+{
+  "directory": "/home/luiz/Documentos/Compiladores/Lab11/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/compiler.dir/error.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/error.cpp",
+  "file": "/home/luiz/Documentos/Compiladores/Lab11/error.cpp"
+},
+{
+  "directory": "/home/luiz/Documentos/Compiladores/Lab11/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/compiler.dir/compiler.cpp.o -c /home/luiz/Documentos/Compiladores/Lab11/compiler.cpp",
+  "file": "/home/luiz/Documentos/Compiladores/Lab11/compiler.cpp"
+}
+]

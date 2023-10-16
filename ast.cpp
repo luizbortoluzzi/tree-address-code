@@ -1,5 +1,6 @@
 #include <iostream>
 #include <sstream>
+#include <vector>
 #include "ast.h"
 #include "error.h"
 #include "gen.h"
@@ -380,7 +381,49 @@ void DoWhile::Gen()
 // For
 // --------
 
-For::For(Statement *i, Expression *c, Statement *inc, Statement *s) 
+// For::For(Statement *i, Expression *c, Statement *inc, Statement *s) 
+//     : init(i), cond(c), increment(inc), stmt(s), Statement(NodeType::FOR_STMT) 
+// {
+//     if (cond && cond->type != ExprType::BOOL) // Verificar se a expressão é booleana
+//     {
+//         stringstream ss;
+//         ss << "expressão condicional \'" << cond->ToString() << "\' não booleana";
+//         throw SyntaxError{scanner->Lineno(), ss.str()};
+//     }
+// }
+
+// void For::Gen()
+// {
+//     unsigned begin = NewLabel();
+//     unsigned after = NewLabel();
+
+//     if (init != nullptr) {
+//         init->Gen(); // Supondo que você tenha um método Gen() adequado para a inicialização
+//     }
+
+//     cout << "L" << begin << ":" << endl;
+
+//     if (cond != nullptr) {
+//         Expression *condition = Rvalue(cond); 
+//         cout << "\tifFalse " << condition->ToString() << " goto L" << after << endl;
+//     }
+
+//     stmt->Gen(); 
+
+//     if (increment != nullptr) {
+//         increment->Gen(); // Supondo que você tenha um método Gen() adequado para o incremento
+//     }
+
+//     cout << "\tgoto L" << begin << endl;
+//     cout << "L" << after << ":" << endl;
+// }
+
+
+// --------
+// For
+// --------
+
+For::For(std::vector<Statement*> i, Expression* c, std::vector<Statement*> inc, Statement* s) 
     : init(i), cond(c), increment(inc), stmt(s), Statement(NodeType::FOR_STMT) 
 {
     if (cond && cond->type != ExprType::BOOL) // Verificar se a expressão é booleana
@@ -396,26 +439,33 @@ void For::Gen()
     unsigned begin = NewLabel();
     unsigned after = NewLabel();
 
-    if (init != nullptr) {
-        init->Gen(); // Supondo que você tenha um método Gen() adequado para a inicialização
+    // Gera código para todas as inicializações
+    for (auto& init : init) {
+        if (init != nullptr) {
+            init->Gen(); // Assumindo que você tem um método Gen() adequado para a inicialização
+        }
     }
 
     cout << "L" << begin << ":" << endl;
 
     if (cond != nullptr) {
-        Expression *condition = Rvalue(cond); 
+        Expression* condition = Rvalue(cond); 
         cout << "\tifFalse " << condition->ToString() << " goto L" << after << endl;
     }
 
     stmt->Gen(); 
 
-    if (increment != nullptr) {
-        increment->Gen(); // Supondo que você tenha um método Gen() adequado para o incremento
+    // Gera código para todos os incrementos
+    for (auto& increment : increment) {
+        if (increment != nullptr) {
+            increment->Gen(); // Assumindo que você tem um método Gen() adequado para o incremento
+        }
     }
 
     cout << "\tgoto L" << begin << endl;
     cout << "L" << after << ":" << endl;
 }
+
 
 // --------
 // Increment
