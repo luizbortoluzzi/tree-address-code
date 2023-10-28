@@ -377,47 +377,6 @@ void DoWhile::Gen()
     cout << "\tifTrue " << n->ToString() << " goto L" << before << endl;
 }
 
-// --------
-// For
-// --------
-
-// For::For(Statement *i, Expression *c, Statement *inc, Statement *s) 
-//     : init(i), cond(c), increment(inc), stmt(s), Statement(NodeType::FOR_STMT) 
-// {
-//     if (cond && cond->type != ExprType::BOOL) // Verificar se a expressão é booleana
-//     {
-//         stringstream ss;
-//         ss << "expressão condicional \'" << cond->ToString() << "\' não booleana";
-//         throw SyntaxError{scanner->Lineno(), ss.str()};
-//     }
-// }
-
-// void For::Gen()
-// {
-//     unsigned begin = NewLabel();
-//     unsigned after = NewLabel();
-
-//     if (init != nullptr) {
-//         init->Gen(); // Supondo que você tenha um método Gen() adequado para a inicialização
-//     }
-
-//     cout << "L" << begin << ":" << endl;
-
-//     if (cond != nullptr) {
-//         Expression *condition = Rvalue(cond); 
-//         cout << "\tifFalse " << condition->ToString() << " goto L" << after << endl;
-//     }
-
-//     stmt->Gen(); 
-
-//     if (increment != nullptr) {
-//         increment->Gen(); // Supondo que você tenha um método Gen() adequado para o incremento
-//     }
-
-//     cout << "\tgoto L" << begin << endl;
-//     cout << "L" << after << ":" << endl;
-// }
-
 
 // --------
 // For

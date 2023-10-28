@@ -1,0 +1,3 @@
+/home/luiz/Documentos/Compiladores/tree-address-code/debug/CMakeFiles/compiler.dir
+/home/luiz/Documentos/Compiladores/tree-address-code/debug/CMakeFiles/edit_cache.dir
+/home/luiz/Documentos/Compiladores/tree-address-code/debug/CMakeFiles/rebuild_cache.dir

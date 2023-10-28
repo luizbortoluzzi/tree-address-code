@@ -190,12 +190,6 @@ Statement *Parser::Stmt(bool consumeSemicolon)
                 throw SyntaxError{scanner->Lineno(), ss.str()};
             }
         }
-        // else
-        // {
-        //     stringstream ss;
-        //     ss << "esperado =, ++ ou -- no lugar de '" << lookahead->lexeme << "'";
-        //     throw SyntaxError{scanner->Lineno(), ss.str()};
-        // }
         return stmt;
     }
     // stmt -> local++;
@@ -317,7 +311,7 @@ Statement *Parser::Stmt(bool consumeSemicolon)
         }
         return stmt;
     }
-        // stmt -> for (stmt; bool; stmt) stmt
+    // stmt -> for (stmt; bool; stmt) stmt
     case Tag::FOR:
     {
         Match(Tag::FOR);
@@ -328,34 +322,27 @@ Statement *Parser::Stmt(bool consumeSemicolon)
             throw SyntaxError{scanner->Lineno(), ss.str()};
         }
 
-        // Para suportar múltiplas instruções de inicialização
         std::vector<Statement *> inits;
-        while (true)
+        if (lookahead->tag == Tag::ID)
         {
-            Statement *st = Stmt(false);    // chama Stmt() para obter a próxima declaração
-            if (lookahead->tag == ';') // verifica se o próximo token é ;
+            while (true)
             {
-                Match(';'); // consome o ;
-                break;      // sai do loop
-            }
-            else if (lookahead->tag == ',') // verifica se o próximo token é ,
-            {
-                Match(','); // consome a ,
-                // continua o loop para obter a próxima declaração
-            }
-            else // se não é nem ; nem , então é um erro
-            {
-                throw SyntaxError(scanner->Lineno(), "esperado ; ou ,");
+                inits.push_back(Stmt(false));
+
+                if (lookahead->tag != ',' && lookahead->tag != ';')
+                {
+                    throw SyntaxError(scanner->Lineno(), "esperado , ou ;");
+                }
+
+                if (lookahead->tag == ';')
+                {
+                    Match(';');
+                    break;
+                }
+
+                Match(','); // Consumir a vírgula e continuar para a próxima instrução
             }
         }
-
-        // if (!Match(';'))
-        // {
-        //     stringstream ss;
-        //     ss << "esperado ; no lugar 2 de '" << lookahead->lexeme << "'";
-        //     throw SyntaxError{scanner->Lineno(), ss.str()};
-        // }
-
         Expression *cond = Bool();
 
         if (!Match(';'))
