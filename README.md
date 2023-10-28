@@ -49,9 +49,7 @@ cd build
 
 If you wish to contribute to this project, please follow the contribution guidelines and submit your pull request.
 
-## License
 
-[Insert license information here, if applicable]
 
 
 
