@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/luiz/Documentos/Compiladores/tree-address-code
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luiz/Documentos/Compiladores/tree-address-code/build
+CMAKE_BINARY_DIR = /home/luiz/Documentos/Compiladores/tree-address-code/debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/compiler.dir/depend.make
@@ -72,7 +72,7 @@ include CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/ast.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/ast.cpp.o: ../ast.cpp
 CMakeFiles/compiler.dir/ast.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/tree-address-code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/compiler.dir/ast.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/tree-address-code/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/compiler.dir/ast.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/ast.cpp.o -MF CMakeFiles/compiler.dir/ast.cpp.o.d -o CMakeFiles/compiler.dir/ast.cpp.o -c /home/luiz/Documentos/Compiladores/tree-address-code/ast.cpp
 
 CMakeFiles/compiler.dir/ast.cpp.i: cmake_force
@@ -86,7 +86,7 @@ CMakeFiles/compiler.dir/ast.cpp.s: cmake_force
 CMakeFiles/compiler.dir/gen.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/gen.cpp.o: ../gen.cpp
 CMakeFiles/compiler.dir/gen.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/tree-address-code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/compiler.dir/gen.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/tree-address-code/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/compiler.dir/gen.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/gen.cpp.o -MF CMakeFiles/compiler.dir/gen.cpp.o.d -o CMakeFiles/compiler.dir/gen.cpp.o -c /home/luiz/Documentos/Compiladores/tree-address-code/gen.cpp
 
 CMakeFiles/compiler.dir/gen.cpp.i: cmake_force
@@ -100,7 +100,7 @@ CMakeFiles/compiler.dir/gen.cpp.s: cmake_force
 CMakeFiles/compiler.dir/checker.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/checker.cpp.o: ../checker.cpp
 CMakeFiles/compiler.dir/checker.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/tree-address-code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/compiler.dir/checker.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/tree-address-code/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/compiler.dir/checker.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/checker.cpp.o -MF CMakeFiles/compiler.dir/checker.cpp.o.d -o CMakeFiles/compiler.dir/checker.cpp.o -c /home/luiz/Documentos/Compiladores/tree-address-code/checker.cpp
 
 CMakeFiles/compiler.dir/checker.cpp.i: cmake_force
@@ -114,7 +114,7 @@ CMakeFiles/compiler.dir/checker.cpp.s: cmake_force
 CMakeFiles/compiler.dir/lexer.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/lexer.cpp.o: ../lexer.cpp
 CMakeFiles/compiler.dir/lexer.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/tree-address-code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/compiler.dir/lexer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/tree-address-code/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/compiler.dir/lexer.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/lexer.cpp.o -MF CMakeFiles/compiler.dir/lexer.cpp.o.d -o CMakeFiles/compiler.dir/lexer.cpp.o -c /home/luiz/Documentos/Compiladores/tree-address-code/lexer.cpp
 
 CMakeFiles/compiler.dir/lexer.cpp.i: cmake_force
@@ -128,7 +128,7 @@ CMakeFiles/compiler.dir/lexer.cpp.s: cmake_force
 CMakeFiles/compiler.dir/parser.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/parser.cpp.o: ../parser.cpp
 CMakeFiles/compiler.dir/parser.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/tree-address-code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/compiler.dir/parser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/tree-address-code/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/compiler.dir/parser.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/parser.cpp.o -MF CMakeFiles/compiler.dir/parser.cpp.o.d -o CMakeFiles/compiler.dir/parser.cpp.o -c /home/luiz/Documentos/Compiladores/tree-address-code/parser.cpp
 
 CMakeFiles/compiler.dir/parser.cpp.i: cmake_force
@@ -142,7 +142,7 @@ CMakeFiles/compiler.dir/parser.cpp.s: cmake_force
 CMakeFiles/compiler.dir/symtable.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/symtable.cpp.o: ../symtable.cpp
 CMakeFiles/compiler.dir/symtable.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/tree-address-code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/compiler.dir/symtable.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/tree-address-code/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/compiler.dir/symtable.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/symtable.cpp.o -MF CMakeFiles/compiler.dir/symtable.cpp.o.d -o CMakeFiles/compiler.dir/symtable.cpp.o -c /home/luiz/Documentos/Compiladores/tree-address-code/symtable.cpp
 
 CMakeFiles/compiler.dir/symtable.cpp.i: cmake_force
@@ -156,7 +156,7 @@ CMakeFiles/compiler.dir/symtable.cpp.s: cmake_force
 CMakeFiles/compiler.dir/error.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/error.cpp.o: ../error.cpp
 CMakeFiles/compiler.dir/error.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/tree-address-code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/compiler.dir/error.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/tree-address-code/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/compiler.dir/error.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/error.cpp.o -MF CMakeFiles/compiler.dir/error.cpp.o.d -o CMakeFiles/compiler.dir/error.cpp.o -c /home/luiz/Documentos/Compiladores/tree-address-code/error.cpp
 
 CMakeFiles/compiler.dir/error.cpp.i: cmake_force
@@ -170,7 +170,7 @@ CMakeFiles/compiler.dir/error.cpp.s: cmake_force
 CMakeFiles/compiler.dir/compiler.cpp.o: CMakeFiles/compiler.dir/flags.make
 CMakeFiles/compiler.dir/compiler.cpp.o: ../compiler.cpp
 CMakeFiles/compiler.dir/compiler.cpp.o: CMakeFiles/compiler.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/tree-address-code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/compiler.dir/compiler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luiz/Documentos/Compiladores/tree-address-code/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/compiler.dir/compiler.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/compiler.dir/compiler.cpp.o -MF CMakeFiles/compiler.dir/compiler.cpp.o.d -o CMakeFiles/compiler.dir/compiler.cpp.o -c /home/luiz/Documentos/Compiladores/tree-address-code/compiler.cpp
 
 CMakeFiles/compiler.dir/compiler.cpp.i: cmake_force
@@ -205,7 +205,7 @@ compiler: CMakeFiles/compiler.dir/error.cpp.o
 compiler: CMakeFiles/compiler.dir/compiler.cpp.o
 compiler: CMakeFiles/compiler.dir/build.make
 compiler: CMakeFiles/compiler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luiz/Documentos/Compiladores/tree-address-code/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable compiler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luiz/Documentos/Compiladores/tree-address-code/debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable compiler"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/compiler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -217,6 +217,6 @@ CMakeFiles/compiler.dir/clean:
 .PHONY : CMakeFiles/compiler.dir/clean
 
 CMakeFiles/compiler.dir/depend:
-	cd /home/luiz/Documentos/Compiladores/tree-address-code/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luiz/Documentos/Compiladores/tree-address-code /home/luiz/Documentos/Compiladores/tree-address-code /home/luiz/Documentos/Compiladores/tree-address-code/build /home/luiz/Documentos/Compiladores/tree-address-code/build /home/luiz/Documentos/Compiladores/tree-address-code/build/CMakeFiles/compiler.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luiz/Documentos/Compiladores/tree-address-code/debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luiz/Documentos/Compiladores/tree-address-code /home/luiz/Documentos/Compiladores/tree-address-code /home/luiz/Documentos/Compiladores/tree-address-code/debug /home/luiz/Documentos/Compiladores/tree-address-code/debug /home/luiz/Documentos/Compiladores/tree-address-code/debug/CMakeFiles/compiler.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/compiler.dir/depend
 

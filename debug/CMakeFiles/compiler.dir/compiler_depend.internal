@@ -3,7 +3,6 @@
 
 CMakeFiles/compiler.dir/ast.cpp.o
  /home/luiz/Documentos/Compiladores/tree-address-code/ast.cpp
- /home/luiz/Documentos/Compiladores/Lab11/ast.cpp
  /usr/include/stdc-predef.h
  /usr/include/c++/11/iostream
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h
@@ -190,8 +189,8 @@ CMakeFiles/compiler.dir/ast.cpp.o
  /usr/include/c++/11/bits/stl_vector.h
  /usr/include/c++/11/bits/stl_bvector.h
  /usr/include/c++/11/bits/vector.tcc
- /home/luiz/Documentos/Compiladores/Lab11/ast.h
- /home/luiz/Documentos/Compiladores/Lab11/lexer.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/ast.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/lexer.h
  /usr/include/c++/11/unordered_map
  /usr/include/c++/11/ext/aligned_buffer.h
  /usr/include/c++/11/bits/hashtable.h
@@ -206,12 +205,11 @@ CMakeFiles/compiler.dir/ast.cpp.o
  /usr/include/c++/11/bits/node_handle.h
  /usr/include/c++/11/bits/unordered_map.h
  /usr/include/c++/11/bits/erase_if.h
- /home/luiz/Documentos/Compiladores/Lab11/error.h
- /home/luiz/Documentos/Compiladores/Lab11/gen.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/error.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/gen.h
 
 CMakeFiles/compiler.dir/checker.cpp.o
  /home/luiz/Documentos/Compiladores/tree-address-code/checker.cpp
- /home/luiz/Documentos/Compiladores/Lab11/checker.cpp
  /usr/include/stdc-predef.h
  /usr/include/c++/11/iostream
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h
@@ -396,7 +394,7 @@ CMakeFiles/compiler.dir/checker.cpp.o
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h
  /usr/include/c++/11/bits/fstream.tcc
- /home/luiz/Documentos/Compiladores/Lab11/lexer.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/lexer.h
  /usr/include/c++/11/unordered_map
  /usr/include/c++/11/ext/aligned_buffer.h
  /usr/include/c++/11/bits/hashtable.h
@@ -413,7 +411,7 @@ CMakeFiles/compiler.dir/checker.cpp.o
  /usr/include/c++/11/bits/erase_if.h
  /usr/include/c++/11/sstream
  /usr/include/c++/11/bits/sstream.tcc
- /home/luiz/Documentos/Compiladores/Lab11/ast.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/ast.h
  /usr/include/c++/11/vector
  /usr/include/c++/11/bits/stl_uninitialized.h
  /usr/include/c++/11/bits/stl_vector.h
@@ -422,7 +420,6 @@ CMakeFiles/compiler.dir/checker.cpp.o
 
 CMakeFiles/compiler.dir/compiler.cpp.o
  /home/luiz/Documentos/Compiladores/tree-address-code/compiler.cpp
- /home/luiz/Documentos/Compiladores/Lab11/compiler.cpp
  /usr/include/stdc-predef.h
  /usr/include/c++/11/iostream
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h
@@ -610,7 +607,7 @@ CMakeFiles/compiler.dir/compiler.cpp.o
  /usr/include/c++/11/cstring
  /usr/include/string.h
  /usr/include/strings.h
- /home/luiz/Documentos/Compiladores/Lab11/lexer.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/lexer.h
  /usr/include/c++/11/unordered_map
  /usr/include/c++/11/ext/aligned_buffer.h
  /usr/include/c++/11/bits/hashtable.h
@@ -627,23 +624,22 @@ CMakeFiles/compiler.dir/compiler.cpp.o
  /usr/include/c++/11/bits/erase_if.h
  /usr/include/c++/11/sstream
  /usr/include/c++/11/bits/sstream.tcc
- /home/luiz/Documentos/Compiladores/Lab11/parser.h
- /home/luiz/Documentos/Compiladores/Lab11/symtable.h
- /home/luiz/Documentos/Compiladores/Lab11/ast.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/parser.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/symtable.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/ast.h
  /usr/include/c++/11/vector
  /usr/include/c++/11/bits/stl_uninitialized.h
  /usr/include/c++/11/bits/stl_vector.h
  /usr/include/c++/11/bits/stl_bvector.h
  /usr/include/c++/11/bits/vector.tcc
- /home/luiz/Documentos/Compiladores/Lab11/error.h
- /home/luiz/Documentos/Compiladores/Lab11/gen.h
- /home/luiz/Documentos/Compiladores/Lab11/checker.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/error.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/gen.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/checker.h
 
 CMakeFiles/compiler.dir/error.cpp.o
  /home/luiz/Documentos/Compiladores/tree-address-code/error.cpp
- /home/luiz/Documentos/Compiladores/Lab11/error.cpp
  /usr/include/stdc-predef.h
- /home/luiz/Documentos/Compiladores/Lab11/error.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/error.h
  /usr/include/c++/11/string
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h
@@ -825,7 +821,6 @@ CMakeFiles/compiler.dir/error.cpp.o
 
 CMakeFiles/compiler.dir/gen.cpp.o
  /home/luiz/Documentos/Compiladores/tree-address-code/gen.cpp
- /home/luiz/Documentos/Compiladores/Lab11/gen.cpp
  /usr/include/stdc-predef.h
  /usr/include/c++/11/iostream
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h
@@ -1005,10 +1000,10 @@ CMakeFiles/compiler.dir/gen.cpp.o
  /usr/include/c++/11/bits/ostream.tcc
  /usr/include/c++/11/istream
  /usr/include/c++/11/bits/istream.tcc
- /home/luiz/Documentos/Compiladores/Lab11/error.h
- /home/luiz/Documentos/Compiladores/Lab11/gen.h
- /home/luiz/Documentos/Compiladores/Lab11/ast.h
- /home/luiz/Documentos/Compiladores/Lab11/lexer.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/error.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/gen.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/ast.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/lexer.h
  /usr/include/c++/11/unordered_map
  /usr/include/c++/11/ext/aligned_buffer.h
  /usr/include/c++/11/bits/hashtable.h
@@ -1033,9 +1028,8 @@ CMakeFiles/compiler.dir/gen.cpp.o
 
 CMakeFiles/compiler.dir/lexer.cpp.o
  /home/luiz/Documentos/Compiladores/tree-address-code/lexer.cpp
- /home/luiz/Documentos/Compiladores/Lab11/lexer.cpp
  /usr/include/stdc-predef.h
- /home/luiz/Documentos/Compiladores/Lab11/lexer.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/lexer.h
  /usr/include/c++/11/unordered_map
  /usr/include/c++/11/type_traits
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h
@@ -1237,10 +1231,9 @@ CMakeFiles/compiler.dir/lexer.cpp.o
 
 CMakeFiles/compiler.dir/parser.cpp.o
  /home/luiz/Documentos/Compiladores/tree-address-code/parser.cpp
- /home/luiz/Documentos/Compiladores/Lab11/parser.cpp
  /usr/include/stdc-predef.h
- /home/luiz/Documentos/Compiladores/Lab11/parser.h
- /home/luiz/Documentos/Compiladores/Lab11/lexer.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/parser.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/lexer.h
  /usr/include/c++/11/unordered_map
  /usr/include/c++/11/type_traits
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h
@@ -1434,21 +1427,20 @@ CMakeFiles/compiler.dir/parser.cpp.o
  /usr/include/c++/11/bits/ostream.tcc
  /usr/include/c++/11/bits/istream.tcc
  /usr/include/c++/11/bits/sstream.tcc
- /home/luiz/Documentos/Compiladores/Lab11/symtable.h
- /home/luiz/Documentos/Compiladores/Lab11/ast.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/symtable.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/ast.h
  /usr/include/c++/11/vector
  /usr/include/c++/11/bits/stl_uninitialized.h
  /usr/include/c++/11/bits/stl_vector.h
  /usr/include/c++/11/bits/stl_bvector.h
  /usr/include/c++/11/bits/vector.tcc
- /home/luiz/Documentos/Compiladores/Lab11/error.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/error.h
  /usr/include/c++/11/iostream
 
 CMakeFiles/compiler.dir/symtable.cpp.o
  /home/luiz/Documentos/Compiladores/tree-address-code/symtable.cpp
- /home/luiz/Documentos/Compiladores/Lab11/symtable.cpp
  /usr/include/stdc-predef.h
- /home/luiz/Documentos/Compiladores/Lab11/symtable.h
+ /home/luiz/Documentos/Compiladores/tree-address-code/symtable.h
  /usr/include/c++/11/unordered_map
  /usr/include/c++/11/type_traits
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h

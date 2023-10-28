@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/luiz/Documentos/Compiladores/tree-address-code")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/luiz/Documentos/Compiladores/tree-address-code/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/luiz/Documentos/Compiladores/tree-address-code/debug")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

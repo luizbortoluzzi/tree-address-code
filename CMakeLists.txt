@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(C-Compiler)
+project(TREE_ADDRESS_CODE_GENERATOR)
 set(CMAKE_CXX_STANDARD 17)
 set(SOURCE_FILES ast.cpp gen.cpp checker.cpp lexer.cpp parser.cpp symtable.cpp error.cpp compiler.cpp)
 add_executable(compiler ${SOURCE_FILES})

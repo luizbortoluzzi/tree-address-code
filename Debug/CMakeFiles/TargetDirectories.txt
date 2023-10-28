@@ -1,3 +1,0 @@
-/home/luiz/Documentos/Compiladores/Lab11/build/CMakeFiles/compiler.dir
-/home/luiz/Documentos/Compiladores/Lab11/build/CMakeFiles/edit_cache.dir
-/home/luiz/Documentos/Compiladores/Lab11/build/CMakeFiles/rebuild_cache.dir
